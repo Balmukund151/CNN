@@ -70,7 +70,7 @@ epoch_loss = []
 batch_ids = []
 count = 0
 
-for epoch in range(2):
+for epoch in range(20):
     total_loss = 0.0
     for batch_id, (label, image) in enumerate(train_dataloader):
         y_pred = model(image)
